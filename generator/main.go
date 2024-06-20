@@ -1,7 +1,7 @@
 package main
 
 import (
-	"github.com/dureyyy/dse-go-odoo"
+	"github.com/dureeyyy/dse-go-odoo"
 )
 
 func main() {
