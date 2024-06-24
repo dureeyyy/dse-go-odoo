@@ -27,11 +27,11 @@ func main() {
 // 	}
 // 	criteria := odoo.NewCriteria()
 
-// 	model, err := c.FindAccountAccount(criteria)
+// 	model, err := c.FindAccountAnalyticAccount(criteria)
 // 	if err != nil {
 // 		log.Fatalf("Error finding account: %v", err)
 // 	}
 
-// 	fmt.Println(model.RootId)
+// 	fmt.Println(model)
 
 // }
