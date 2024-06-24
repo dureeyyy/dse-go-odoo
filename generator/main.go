@@ -25,13 +25,14 @@ func main() {
 // 	if err != nil {
 // 		log.Fatal(err)
 // 	}
+
 // 	criteria := odoo.NewCriteria()
 
-// 	model, err := c.FindAccountJournal(criteria)
+// 	model, err := c.FindAccountMove(criteria)
 // 	if err != nil {
 // 		log.Fatalf("Error finding account: %v", err)
 // 	}
 
-// 	fmt.Println(model.DefaultAccountId)
+// 	fmt.Println(model.Many2One())
 
 // }

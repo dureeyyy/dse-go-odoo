@@ -179,6 +179,7 @@ const AccountMoveModel = "account.move"
 // Many2One convert AccountMove to *Many2One.
 func (am *AccountMove) Many2One() *Many2One {
 	return NewMany2One(am.Id.Get(), "")
+
 }
 
 // CreateAccountMove creates a new account.move model and returns its id.
